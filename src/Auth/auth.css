@@ -1,0 +1,79 @@
+.mm{
+    background-image: url('../images/bk3.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    
+
+}
+
+.mm .h1{
+    color:white;
+    padding-top:150px;
+    text-align: center;
+}
+
+.inpt-err{
+    color: red;
+}
+
+.auth-form {
+    margin-left: 565px;
+    width:400px;
+    height:auto;
+    border:solid 1px #ccc;
+    padding:20px;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.31);
+    
+
+}
+
+.auth-form h1{
+    color:aliceblue;
+}
+
+label{
+    color:rgb(167, 159, 159);
+}
+
+.par{
+    color:beige;
+}
+
+input{
+    /* background-color: transparent; */
+    /* color:white; */
+
+}
+
+input::placeholder{
+    /* color:white; */
+    /* background-color: transparent; */
+}
+
+
+
+.auth-form  h2 {
+     font-size:28px ;
+     margin-bottom: 20px;
+
+}
+
+.form-group{
+    margin-bottom: 15px;
+
+}
+
+.form-group > input{
+    width:100%;
+    border-radius:5px ;
+    height:40px;
+    border:solid 1px #777;
+    padding:10px;
+
+
+
+}
+
+

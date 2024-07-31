@@ -1,0 +1,77 @@
+
+
+body {
+
+    background: linear-gradient(-45deg, #ff6f61, #d9a7c7, #ffecd2, #a1c4fd, #ff9a9e);
+    background-size: 400% 400%;
+    animation: gradientAnimation 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.awesome-header {
+    font-size: 5em;
+    background: linear-gradient(120deg, #ff5f6d, #ffc371);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    animation: gradientAnimation 5s infinite;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.awesome-header:hover {
+    transform: scale(1.1) rotate(3deg);
+}
+
+
+
+input{
+
+    margin:11px;
+    /* color:rgb(218, 4, 4); */
+    /* background-color: black; */
+  
+    
+  
+}
+
+.btn-up{
+    margin-left: 5px;
+}
+
+.cont{
+    margin: 10px;
+    border:1px solid black;
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+ }
+ 
+ .df{
+     display:flex;
+     gap:0 10px;
+ }
+
+
+
+
+
+
+
+ 
+ 

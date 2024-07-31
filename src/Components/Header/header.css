@@ -1,0 +1,43 @@
+.header-top{
+    background: linear-gradient(120deg, #f6d365, #fda085, #f093fb, #6fa3ef, #8e54e9);
+
+
+    color: white;
+    padding:10px 15px;
+    text-align: center;
+    background-size: 300% 300%;
+    animation: gradientAnimation 15s ease infinite;
+
+
+
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.navbar > li > a{
+
+     color : white;
+     margin: 0px 10px;
+     text-decoration: none;
+
+
+}
+
+.navbar > li {
+    list-style-type: none;
+}
+
+.hd{
+    height: 5vh;
+    margin-left: 7px;
+    padding-top: 10px;
+    margin-top: 2px;
+}
+
+.btp{
+    margin-left: 8px;
+}
