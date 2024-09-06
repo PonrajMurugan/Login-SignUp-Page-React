@@ -112,11 +112,11 @@ const SignUpPage = () => {
                     <input type='password' name='password' id='password' value={inputState.password} onChange={onChangeInput}/> <br></br>
                 </div>
                 
-                <button type='submit' className='btn btn-primary w-100'>Login</button>
+                <button type='submit' className='btn btn-primary w-100'>Sign up</button>
             </form>
             <div className='text-center par'> 
             <br></br>
-                   <p>If Have An Account. Please </p> <Link to ={"/auth/login"}>Sign up</Link>
+                   <p>If Have An Account. Please </p> <Link to ={"/auth/login"}>Log in</Link>
                 </div>
         </div>
         </div>
