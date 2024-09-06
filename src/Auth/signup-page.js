@@ -116,7 +116,7 @@ const SignUpPage = () => {
             </form>
             <div className='text-center par'> 
             <br></br>
-                   <p>If Have An Account. Please </p> <Link to ={"/auth/login"}>Log in</Link>
+                   <p>If Have An Account. Please </p> <Link to ={"/auth/login"}>Sign up</Link>
                 </div>
         </div>
         </div>
